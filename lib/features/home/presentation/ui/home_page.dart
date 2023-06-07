@@ -1,9 +1,6 @@
-import 'dart:typed_data';
-
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:moth/features/home/presentation/ui/widgets/home_app_bar.dart';
-import 'package:moth/shared/qr/qr_generator.dart';
 import 'package:moth/shared/widgets/m_card_number_field/card_form.dart';
 import 'package:moth/shared/widgets/m_card_number_field/models/card_model.dart';
 import 'package:moth/shared/widgets/m_card_number_field/models/payment_system_icon_data.dart';
@@ -32,14 +29,6 @@ class HomeScreen extends StatelessWidget {
                   mirPath: 'assets/icons/mir-light.svg',
                   jcbPath: 'assets/icons/jcb-light.svg',
                   defaultIcon: 'assets/icons/wallet.svg',
-                ),
-              ),
-              Container(
-                width: 200.0,
-                height: 200.0,
-                child: Image.memory(
-                  Uint8List.fromList(generateQRCode("https://example.com", 25)),
-                  fit: BoxFit.cover,
                 ),
               ),
             ],
