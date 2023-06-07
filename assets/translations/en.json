@@ -1,0 +1,9 @@
+{
+  "discovery": "Discovery",
+  "begin_discovery" : "Begin discovery",
+  "finding" : "Looking for...",
+  "not_found" : "Not found",
+  "error" : "Something went wrong",
+  "we_found": "We found {}",
+  "discovery_results": "Discovery results"
+}

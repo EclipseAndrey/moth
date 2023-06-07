@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "95216773866",
+    "project_id": "moth-27a1f",
+    "storage_bucket": "moth-27a1f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95216773866:android:5e77ecd8d56d075d000593",
+        "android_client_info": {
+          "package_name": "com.eclipsedevelop.moth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "95216773866-9605n4ca164plr4f3vnefs7hkp509alt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT7l9C-S0xYXcB8UnEVN_hZXiHMh4h1Es"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "95216773866-9605n4ca164plr4f3vnefs7hkp509alt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "95216773866-714pip2n0p15ji2vj9u6pvg5dil9ne5f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.eclipsedevelop.moth"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
